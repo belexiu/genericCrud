@@ -1,0 +1,99 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "Lib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "StaticUtils": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Lib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Lib.dll": {}
+        }
+      },
+      "StaticUtils/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "compile": {
+          "bin/placeholder/StaticUtils.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StaticUtils.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Lib/1.0.0": {
+      "type": "project",
+      "path": "../Lib/Lib.csproj",
+      "msbuildProject": "../Lib/Lib.csproj"
+    },
+    "StaticUtils/1.0.0": {
+      "type": "project",
+      "path": "../StaticUtils/StaticUtils.csproj",
+      "msbuildProject": "../StaticUtils/StaticUtils.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v2.2": [
+      "Lib >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Petru\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Petru\\Desktop\\Source\\pipe\\WebApi\\WebApi.csproj",
+      "projectName": "WebApi",
+      "projectPath": "C:\\Users\\Petru\\Desktop\\Source\\pipe\\WebApi\\WebApi.csproj",
+      "packagesPath": "C:\\Users\\Petru\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Petru\\Desktop\\Source\\pipe\\WebApi\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Petru\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp2.2"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "projectReferences": {
+            "C:\\Users\\Petru\\Desktop\\Source\\pipe\\Lib\\Lib.csproj": {
+              "projectPath": "C:\\Users\\Petru\\Desktop\\Source\\pipe\\Lib\\Lib.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp2.2": {
+        "imports": [
+          "net461"
+        ],
+        "assetTargetFallback": true,
+        "warn": true
+      }
+    }
+  }
+}
