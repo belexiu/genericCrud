@@ -1,3 +1,3 @@
 # genericCrud
 
-A generic library to help reduce the ammount of code that does only CRUD on data
+A generic library to help reduce the amount of code that does only CRUD on data
